@@ -21,9 +21,8 @@ public class PlayerInput : MonoBehaviour
 
             Vector2 input = tmp ;
 
-
-            Debug.Log("mousePosition " +Input.mousePosition);
-            Debug.Log("input " + tmp);
+            //Debug.Log("mousePosition " +Input.mousePosition);
+            //Debug.Log("input " + tmp);
 
             Messenger<Vector2>.Broadcast(Ar.PlayerInput.MousePosition, input, MessengerMode.DONT_REQUIRE_LISTENER);
         }

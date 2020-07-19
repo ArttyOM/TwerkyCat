@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Scores
+  - Puppet
+  - Tail
+  - Head
+  - LevelPivot
   layers:
   - Default
   - TransparentFX
@@ -14,10 +19,10 @@ TagManager:
   - 
   - 
   - CatBody
-  - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Borders
+  - Tail
+  - LevelPivot
   - 
   - 
   - 
